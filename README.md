@@ -1,5 +1,5 @@
-# Species Distribution & Abundance: CA Threatened Birds & Amphibians (2020-2024)
-Dataset used to calculate the abundance and density of threatened bird and amphibian species in California from 2020 to 2024.
+# CA Threatened Bird and Amphibian Data 2020-2024
+This dataset contains data sourced from iNaturalist on threatened bird and amphibian species in California during breeding and nesting seasons from 2020-2024.
 
 ## iNaturalist Queries (retrieved 2024-11-23)
 ### Observation Data
