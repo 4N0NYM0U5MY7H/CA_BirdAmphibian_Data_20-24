@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Geog_2200_dataset
+title: Species Distribution & Abundance: CA Threatened Birds & Amphibians (2020-2024)
 message: >-
   If you use this dataset, please cite it using the metadata
   from this file.
@@ -13,6 +13,9 @@ authors:
     orcid: 'https://orcid.org/0009-0007-9200-8438'
     email: afrisk1@csustan.edu
     affiliation: California State University Stanislaus
-repository-code: 'https://github.com/4N0NYM0U5MY7H/GEOG_2200_dataset'
+repository-code: 'https://github.com/4N0NYM0U5MY7H/CA_BirdAmphibian_Data_20-24'
+abstract: >-
+  This dataset contains data on threatened bird and amphibian species in California from 2020-2024,
+   during breeding and nesting seasons.
 license: CC-BY-SA-4.0
 date-released: '2024-11-23'
