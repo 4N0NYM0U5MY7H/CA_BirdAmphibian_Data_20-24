@@ -17,7 +17,19 @@ This dataset contains data sourced from iNaturalist on threatened bird and amphi
 * https://www.inaturalist.org/observations?quality_grade=research&identifications=any&iconic_taxa[]=Aves&iconic_taxa[]=Amphibia&place_id=14&threatened=true&introduced=false&native=true&d1=2024-03-01&d2=2024-08-31&spam=false
 
 ### Columns
-* `observed_on`, `time_observed_at`, `quality_grade`, `latitude`, `longitude`, `positional_accuracy`, `private_latitude`, `private_longitude`, `public_positional_accuracy`, `scientific_name`, `common_name`
+* `observed_on`: Normalized date of observation
+* `time_observed_at`: Normalized datetime of observation
+* `quality_grade`: Quality grade of this observation. See Help section for details on what this means. See https://help.inaturalist.org/support/solutions/articles/151000169936
+* `latitude`: Publicly visible latitude from the observation location
+* `longitude`: Publicly visible longitude from the observation location
+* `positional_accuracy`: Coordinate precision (yeah, yeah, accuracy != precision, poor choice of names)
+* `private_latitude`: Private latitude, set if observation private or obscured
+* `private_longitude`: Private longitude, set if observation private or obscured
+* `public_positional_accuracy`: Maximum horizontal positional uncertainty in meters; includes uncertainty added by coordinate obscuration
+* `scientific_name`: Scientific name of the observed taxon according to iNaturalist
+* `common_name`: Common or vernacular name of the observed taxon according to iNaturalist
+
+For more information about column headers, see https://www.inaturalist.org/terminology
 
 ## Acknowledgements
 This project is a derived work of Madison Carlson and Darko Gojsic's [Species mapping in ArcGIS Pro](https://storymaps.arcgis.com/stories/a09723cb2d7d4187bbec43466cbdb920).
