@@ -32,8 +32,8 @@ This dataset contains data sourced from iNaturalist on threatened bird and amphi
 For more information about column headers, see https://www.inaturalist.org/terminology
 
 ## Contibutors
-* **August Frisk** - Data Curation, Analysis, and Visualization
-* iNaturalist Contributors - Data Collection and Identification
+* **August Frisk** - Data Curation, Analysis, and Documentation
+* iNaturalist Contributors - Data Collection, Identification, and Validation
     
     |Observers|Identifiers|
     |---|---|
