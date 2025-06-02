@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: "CA Threatened Bird and Amphibian Data 2020-2024"
+title: CA Threatened Bird and Amphibian Data 2020-2024
 message: >-
   If you use this dataset, please cite it using the metadata
   from this file.
@@ -12,8 +12,11 @@ authors:
     family-names: Frisk
     orcid: 'https://orcid.org/0009-0007-9200-8438'
     email: afrisk1@csustan.edu
-    affiliation: California State University Stanislaus
-repository-code: 'https://github.com/4N0NYM0U5MY7H/CA_BirdAmphibian_Data_20-24'
+    affiliation: 'California State University, Stanislaus'
+  - name: iNaturalist Contributors
+    location: California
+repository-code: >-
+  https://github.com/4N0NYM0U5MY7H/CA_BirdAmphibian_Data_20-24
 abstract: >-
   This dataset contains data sourced from iNaturalist on
   threatened bird and amphibian species in California during
